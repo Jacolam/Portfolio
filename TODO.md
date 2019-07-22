@@ -11,4 +11,5 @@
       - log bottle necks , and weird bugs
   - Skills
   - Resume
+    -option to make resume another component, or like link to a PDF of resume 
   - Contact
