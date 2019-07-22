@@ -1,32 +1,40 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 class NavBar extends React.Component{
+
+  scrollToLocation = (e) => {
+    var loc = e.target.innerText
+    var selected = document.querySelector(`.${loc}`)
+    selected.scrollIntoView({block: 'start', behavior: 'smooth'})
+  }
 
   render(){
     return(
       <div>
-        <Link to='/About'>
+        <button onClick={this.scrollToLocation}>
           About
-        </Link><br/>
+        </button>
 
-        <Link to='/Projects'>
+        <button onClick={this.scrollToLocation}>
           Projects
-        </Link><br/>
+        </button>
 
-        <Link to='/Skills'>
+        <button onClick={this.scrollToLocation}>
           Skills
-        </Link><br/>
-        {/*// OPTION TO MAKE RESUME ANOTHER COMPONENT OF LINK TO PDF TO RESUME*/}
-        <Link to='/Resume'>
+        </button>
+
+        <button onClick={this.scrollToLocation}>
           Resume
-        </Link><br/>
+        </button>
+
+        <button onClick={this.scrollToLocation}>
+          Contact
+        </button>
 
       </div>
-
     )
   }
-
 }
 
 export default NavBar
