@@ -1,6 +1,10 @@
 .header{
-  text-align:center;
+  text-align: center;
 }
 .content-block{
-  height:50vh;
+  height: 50vh;
+  /* CHANGE BACK TO 100 VH WHEN COMEPLTE */
+}
+.bar{
+  text-align: center;
 }
