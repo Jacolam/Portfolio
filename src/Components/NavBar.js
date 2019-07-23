@@ -11,7 +11,7 @@ class NavBar extends React.Component{
 
   render(){
     return(
-      <div className='bar'>
+      <div className='nav-bar'>
         <button onClick={this.scrollToLocation}>
           About
         </button>

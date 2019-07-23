@@ -7,8 +7,13 @@ class Skills extends React.Component{
         Skills Section
         JavaScript
         Ruby on Rails
+        React
+        Redux
         Ruby
-        PostgresSQL
+        CSS3
+        Git
+        HTML5
+        PostgreSQL
 
       </div>
     )

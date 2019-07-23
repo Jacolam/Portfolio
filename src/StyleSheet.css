@@ -1,10 +1,19 @@
 .header{
   text-align: center;
+  /* STILL NEED TO VERTICALLY CENTER THE HEADER */
+
 }
 .content-block{
   height: 50vh;
   /* CHANGE BACK TO 100 VH WHEN COMEPLTE */
 }
+.nav-bar{
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .bar{
   text-align: center;
 }
