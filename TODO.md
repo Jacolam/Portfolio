@@ -2,14 +2,17 @@
 - wireframe layout
 - navigation bar
   - About
+    - revise about me section, get professional opinion
   - Projects
     - completed
+      - have logos of stacks used for this project
     - in progress projects
       - status
       - next task
       - include screen shots
       - log bottle necks , and weird bugs
   - Skills
+    - insert logos for languages and frameworks that i know and use
   - Resume
-    -option to make resume another component, or like link to a PDF of resume 
+    -option to make resume another component, or like link to a PDF of resume
   - Contact

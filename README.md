@@ -7,3 +7,4 @@
 - React
 - JS
 - Bootstrap
+- CSS

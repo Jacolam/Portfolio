@@ -1,13 +1,13 @@
-import React from 'react'
+import React from 'react';
 
 class Projects extends React.Component{
   render(){
     return(
-      <div className='Projects'>
+      <div className='Projects content-block'>
         projects
       </div>
     )
   }
 }
 
-export default Projects
+export default Projects;

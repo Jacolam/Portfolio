@@ -1,13 +1,13 @@
-import React from 'react'
+import React from 'react';
 
 class Skills extends React.Component{
   render(){
     return(
-      <div className='Skills'>
+      <div className='Skills content-block'>
         Skills Section
       </div>
     )
   }
 }
 
-export default Skills
+export default Skills;
