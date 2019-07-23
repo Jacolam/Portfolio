@@ -1,6 +1,7 @@
 .header{
   text-align: center;
-  /* STILL NEED TO VERTICALLY CENTER THE HEADER */
+  padding: 100px;
+  /* temp fix, need to make more dynamic */
 
 }
 .content-block{

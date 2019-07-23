@@ -11,6 +11,6 @@ class Header extends React.Component{
   }
 }
 
-// STILL NEED TO VERTICALLY CENTER THE HEADER, ADJUST IN STYLE SHEET
+// STILL NEED TO VERTICALLY CENTER THE HEADER, ADJUST IN STYLE 
 
 export default Header;
