@@ -16,3 +16,5 @@
   - Resume
     -option to make resume another component, or like link to a PDF of resume
   - Contact
+    - need to implement icons for each action (styling )
+    - learn to implement email function
