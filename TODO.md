@@ -14,7 +14,7 @@
   - Skills
     - insert logos for languages and frameworks that i know and use
   - Resume
-    -option to make resume another component, or like link to a PDF of resume
+    - option to make resume another component, or like link to a PDF of resume
   - Contact
-    - need to implement icons for each action (styling )
+    - ~~need to implement icons for each action (styling )~~
     - learn to implement email function
