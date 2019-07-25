@@ -1,7 +1,7 @@
 import React from 'react';
 
 const divStyle = {
-  padding: '15px',
+  padding: '5px',
   background: 'gray'
 };
 
@@ -37,7 +37,7 @@ class Contact extends React.Component{
           alt="Email"
           height="36"
           width="36"
-          onClick={() => window.open(`https://medium.com/@jacolam`)}
+          onClick={() => window.open(`jacob.cuong.lam@gmail.com`)}
           />
         <p>Designed by Jacob Lam</p>
       </div>
