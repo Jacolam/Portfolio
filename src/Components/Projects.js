@@ -1,16 +1,23 @@
 import React from 'react';
 
 class Projects extends React.Component{
+
+  renderProjects = () => {
+
+  }
+
   render(){
     return(
-      <div className='Projects content-block container'>
+      <div className='Projects content-block bar'>
         Projects
-        <div>Don't Forget About Me</div>
-        <div>Boba Finder</div>
-        <div>Zombie Diner</div>
-        <div>Sumo</div>
-        <div>Payroll</div>
-        <div>Stardew Valley CLI</div>
+        <div>
+          <button>Don't Forget About Me</button>
+          <button>Boba Finder</button>
+          <button>Zombie Diner</button>
+          <button>Sumo</button>
+          <button>Payroll</button>
+          <button>Stardew Valley CLI</button>
+        </div>
       </div>
     )
   }

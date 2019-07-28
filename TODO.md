@@ -11,6 +11,7 @@
       - next task
       - include screen shots
       - log bottle necks , and weird bugs
+      - use http://techsini.com/multi-mockup/, for mockup images 
   - Skills
     - insert logos for languages and frameworks that i know and use
   - Resume
@@ -18,4 +19,4 @@
   - Contact
     - ~~need to implement icons for each action (styling )~~
     - ~~learn to implement email function~~
-      - decided to remove 
+      - decided to remove
