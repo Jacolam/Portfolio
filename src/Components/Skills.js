@@ -5,6 +5,7 @@ class Skills extends React.Component{
     return(
       <div className='Skills bar'>
         Skills Section
+        <img src=''/>
         JavaScript
         Ruby on Rails
         React

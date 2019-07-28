@@ -1,7 +1,7 @@
 import React from 'react';
 
 const divStyle = {
-  padding: '10px',
+  padding: '30px 10px',
   background: 'gray'
 };
 

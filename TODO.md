@@ -11,7 +11,8 @@
       - next task
       - include screen shots
       - log bottle necks , and weird bugs
-      - use http://techsini.com/multi-mockup/, for mockup images 
+      - use http://techsini.com/multi-mockup/, for mockup images
+        - needs a live site? 
   - Skills
     - insert logos for languages and frameworks that i know and use
   - Resume

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const divStyle = {
-  padding: '5px',
+  padding: '1px',
   background: 'gray'
 };
 
@@ -31,13 +31,6 @@ class Contact extends React.Component{
           height="36"
           width="36"
           onClick={() => window.open(`https://medium.com/@jacolam`)}
-          />
-        <img
-          src='https://cdn4.iconfinder.com/data/icons/aiga-symbol-signs/612/aiga_mail_bg-512.png'
-          alt="Email"
-          height="36"
-          width="36"
-          onClick={() => window.open(`jacob.cuong.lam@gmail.com`)}
           />
         <p>Designed by Jacob Lam</p>
       </div>
