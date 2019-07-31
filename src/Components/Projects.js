@@ -9,7 +9,6 @@ class Projects extends React.Component{
   render(){
     return(
       <div className='Projects bar container'>
-        Projects
         <div>
           <div style={{display:'flex'}}>
             <div>

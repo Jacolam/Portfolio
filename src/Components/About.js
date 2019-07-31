@@ -10,7 +10,7 @@ class About extends React.Component{
     return(
       <div style={divStyle}>
         <div className='About container bar' style={{background:'gray'}}>
-          About Me
+          <h4>About Me</h4>
           <br/><br/>
           I am full-stack web developer with experience in JavaScript, React/Redux, Ruby on Rails and an engineer background. Having a chronically curious mind, I fostered  passions for solution development, troubleshooting, and technological innovation. This fascination was further spurred by my time working at Tesla, helping me realize that software melded my three passions together. I enrolled to Flatiron School to embark on my journey as a software developer.
           <br/><br/>
