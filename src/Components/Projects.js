@@ -2,15 +2,11 @@ import React from 'react';
 
 class Projects extends React.Component{
 
-  renderProjects = () => {
-
-  }
-
   render(){
     return(
       <div className='Projects bar container'>
         <div>
-          <div style={{display:'flex'}}>
+          <div className='content-block bar' style={{display:'flex', padding:'30px'}}>
             <div>
               <h5>Don't Forget About Me</h5>
               DFAM is a relationship management application, that helps you set reminders to reach out and connect with our friends and family. DFAMs goals is to help you build healthier and more meaningful relationships.
@@ -34,7 +30,7 @@ class Projects extends React.Component{
             </div>
           </div>
           <br/>
-          <div style={{display:'flex'}}>
+          <div className='content-block bar' style={{display:'flex'}}>
             <div>
               more stuf this is another container
               should import image of Boba finder
@@ -55,7 +51,7 @@ class Projects extends React.Component{
             </div>
           </div>
           <br/>
-          <div style={{display:'flex'}}>
+          <div className='content-block bar' style={{display:'flex'}}>
             <div>
               <h5>Zombie Diner</h5>
               Zombies are hungry, clear all the food orders by adding the right ingredients to the plate before serving them.
