@@ -18,22 +18,21 @@ class Projects extends React.Component{
                 <button onClick={ () => window.open(`https://github.com/Jacolam/dfamv2-backend`)}>
                   Back-End
                 </button>
-                <button onClick={ () => window.open(`https://github.com/Jacolam/dfamv2-frontend`)}>
+                <button onClick={ () => window.open(`https://www.youtube.com/watch?v=xtUQTAyB2lw`)}>
                   Demo
                 </button>
               </div>
 
             </div>
             <div>
-              more stuf this is another container
-              should import image of DFAM
+              <img src={require('./assets/dfam.jpg')} alt=''></img>
+
             </div>
           </div>
           <br/>
           <div className='content-block bar' style={{display:'flex'}}>
             <div>
-              more stuf this is another container
-              should import image of Boba finder
+              <img src={require('./assets/bobafinder.jpg')} alt=''></img>
             </div>
             <div>
               <h5>Boba Finder</h5>
@@ -43,7 +42,7 @@ class Projects extends React.Component{
                 <button onClick={ () => window.open(`https://github.com/Jacolam/bobafinder-frontend`)}>
                   Front-End
                 </button>
-                <button onClick={ () => window.open(`https://medium.com/@jacolam`)}>
+                <button onClick={ () => window.open(`https://www.youtube.com/watch?v=lbfibjAxxnY`)}>
                   Demo
                 </button>
               </div>
@@ -69,12 +68,14 @@ class Projects extends React.Component{
                 <button onClick={ () => window.open(`https://raw.githubusercontent.com/Jacolam/zombie-diner-front-end/master/zombie-diner.gif`)}>
                   Demo
                 </button>
+                <button onClick={ () => window.open(`https://zombie-diner.herokuapp.com/`)}>
+                  Live!
+                </button>
               </div>
 
             </div>
             <div>
-              more stuf this is another container
-              should import image of  Zombie Diner
+              <img src={require('./assets/zombie_diner.jpg')} alt=''></img>
             </div>
           </div>
         </div>

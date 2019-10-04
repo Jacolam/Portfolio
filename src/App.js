@@ -2,7 +2,6 @@ import React from 'react';
 import NavBar from './Components/NavBar';
 import About from './Components/About';
 import Projects from './Components/Projects';
-import Skills from './Components/Skills';
 import Contact from './Components/Contact';
 import Header from './Components/Header';
 import './StyleSheet.css';
@@ -15,7 +14,6 @@ function App() {
       <NavBar/>
       <About/>
       <Projects/>
-      <Skills/>
       <Contact/>
 
     </div>
