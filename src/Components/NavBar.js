@@ -12,23 +12,17 @@ class NavBar extends React.Component{
   render(){
     return(
       <div className='nav-bar'>
-        <button onClick={this.scrollToLocation}>
+        <button onClick={this.scrollToLocation} class="btn btn-primary btn-sm">
           About
         </button>
 
-        <button onClick={this.scrollToLocation}>
+        <button onClick={this.scrollToLocation} class="btn btn-primary btn-sm">
           Projects
         </button>
 
-        <button onClick={this.scrollToLocation}>
-          Skills
-        </button>
+          <a href="https://drive.google.com/file/d/1wyU3h3Ze4MsjbqUE1Jz8neANVej5uZMc/view?usp=sharing" class="btn btn-primary btn-sm">Resume</a>
 
-        <button onClick={this.scrollToLocation}>
-          Resume
-        </button>
-
-        <button onClick={this.scrollToLocation}>
+        <button class="btn btn-primary btn-sm" onClick={this.scrollToLocation}>
           Contact
         </button>
 

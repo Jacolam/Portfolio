@@ -25,14 +25,14 @@ class Projects extends React.Component{
 
             </div>
             <div>
-              <img src={require('./assets/dfam.jpg')} alt=''></img>
+              <img src={require('./assets/dfam.jpg')} alt='' height='250px' width='500px'></img>
 
             </div>
           </div>
           <br/>
           <div className='content-block bar' style={{display:'flex'}}>
             <div>
-              <img src={require('./assets/bobafinder.jpg')} alt=''></img>
+              <img src={require('./assets/bobafinder.jpg')} alt='' height='250px' width='500px'></img>
             </div>
             <div>
               <h5>Boba Finder</h5>
@@ -75,7 +75,7 @@ class Projects extends React.Component{
 
             </div>
             <div>
-              <img src={require('./assets/zombie_diner.jpg')} alt=''></img>
+              <img src={require('./assets/zombie_diner.jpg')} alt='' height='250px' width='250px'></img>
             </div>
           </div>
         </div>
